@@ -47,7 +47,7 @@ function App() {
           />
         </Grid>
       </Grid>
-      {events.map((event, index) => (
+      {events.map((event) => (
         <DisplayOneEvent
           day={event.day}
           month={event.month}
